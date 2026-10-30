@@ -1,0 +1,200 @@
+{
+  "utc": "2026-10-30T19:23:56.875924+00:00",
+  "runs": [
+    {
+      "instances": 1,
+      "scenario": "imagem-1mb",
+      "users": 10,
+      "actual_peak_users": 10,
+      "requests": 414
+    },
+    {
+      "instances": 1,
+      "scenario": "imagem-1mb",
+      "users": 20,
+      "actual_peak_users": 20,
+      "requests": 741
+    },
+    {
+      "instances": 1,
+      "scenario": "imagem-1mb",
+      "users": 5,
+      "actual_peak_users": 5,
+      "requests": 198
+    },
+    {
+      "instances": 1,
+      "scenario": "imagem-300kb",
+      "users": 10,
+      "actual_peak_users": 10,
+      "requests": 414
+    },
+    {
+      "instances": 1,
+      "scenario": "imagem-300kb",
+      "users": 20,
+      "actual_peak_users": 20,
+      "requests": 764
+    },
+    {
+      "instances": 1,
+      "scenario": "imagem-300kb",
+      "users": 5,
+      "actual_peak_users": 5,
+      "requests": 213
+    },
+    {
+      "instances": 1,
+      "scenario": "texto-400kb",
+      "users": 10,
+      "actual_peak_users": 10,
+      "requests": 207
+    },
+    {
+      "instances": 1,
+      "scenario": "texto-400kb",
+      "users": 20,
+      "actual_peak_users": 20,
+      "requests": 392
+    },
+    {
+      "instances": 1,
+      "scenario": "texto-400kb",
+      "users": 5,
+      "actual_peak_users": 5,
+      "requests": 105
+    },
+    {
+      "instances": 2,
+      "scenario": "imagem-1mb",
+      "users": 10,
+      "actual_peak_users": 10,
+      "requests": 394
+    },
+    {
+      "instances": 2,
+      "scenario": "imagem-1mb",
+      "users": 20,
+      "actual_peak_users": 20,
+      "requests": 740
+    },
+    {
+      "instances": 2,
+      "scenario": "imagem-1mb",
+      "users": 5,
+      "actual_peak_users": 5,
+      "requests": 192
+    },
+    {
+      "instances": 2,
+      "scenario": "imagem-300kb",
+      "users": 10,
+      "actual_peak_users": 10,
+      "requests": 412
+    },
+    {
+      "instances": 2,
+      "scenario": "imagem-300kb",
+      "users": 20,
+      "actual_peak_users": 20,
+      "requests": 762
+    },
+    {
+      "instances": 2,
+      "scenario": "imagem-300kb",
+      "users": 5,
+      "actual_peak_users": 5,
+      "requests": 187
+    },
+    {
+      "instances": 2,
+      "scenario": "texto-400kb",
+      "users": 10,
+      "actual_peak_users": 10,
+      "requests": 207
+    },
+    {
+      "instances": 2,
+      "scenario": "texto-400kb",
+      "users": 20,
+      "actual_peak_users": 20,
+      "requests": 390
+    },
+    {
+      "instances": 2,
+      "scenario": "texto-400kb",
+      "users": 5,
+      "actual_peak_users": 5,
+      "requests": 101
+    },
+    {
+      "instances": 3,
+      "scenario": "imagem-1mb",
+      "users": 10,
+      "actual_peak_users": 10,
+      "requests": 366
+    },
+    {
+      "instances": 3,
+      "scenario": "imagem-1mb",
+      "users": 20,
+      "actual_peak_users": 20,
+      "requests": 711
+    },
+    {
+      "instances": 3,
+      "scenario": "imagem-1mb",
+      "users": 5,
+      "actual_peak_users": 5,
+      "requests": 184
+    },
+    {
+      "instances": 3,
+      "scenario": "imagem-300kb",
+      "users": 10,
+      "actual_peak_users": 10,
+      "requests": 384
+    },
+    {
+      "instances": 3,
+      "scenario": "imagem-300kb",
+      "users": 20,
+      "actual_peak_users": 20,
+      "requests": 704
+    },
+    {
+      "instances": 3,
+      "scenario": "imagem-300kb",
+      "users": 5,
+      "actual_peak_users": 5,
+      "requests": 180
+    },
+    {
+      "instances": 3,
+      "scenario": "texto-400kb",
+      "users": 10,
+      "actual_peak_users": 10,
+      "requests": 195
+    },
+    {
+      "instances": 3,
+      "scenario": "texto-400kb",
+      "users": 20,
+      "actual_peak_users": 20,
+      "requests": 375
+    },
+    {
+      "instances": 3,
+      "scenario": "texto-400kb",
+      "users": 5,
+      "actual_peak_users": 5,
+      "requests": 89
+    }
+  ],
+  "original_compose_and_nginx_restored": true,
+  "original_post_1_http_200": true,
+  "posts_and_image_hashes_valid": true,
+  "locust_ui_state": "ready",
+  "compose_ps": "NAME                              IMAGE                           COMMAND                  SERVICE      CREATED             STATUS          PORTS\ntrabalho-wordpress-locust-1       locustio/locust:2.31.8          \"locust -f /mnt/locu\u00e2\u20ac\u00a6\"   locust       About an hour ago   Up 13 seconds   0.0.0.0:8089->8089/tcp, [::]:8089->8089/tcp\ntrabalho-wordpress-mysql-1        mysql:5.7                       \"docker-entrypoint.s\u00e2\u20ac\u00a6\"   mysql        2 weeks ago         Up 13 days      3306/tcp, 33060/tcp\ntrabalho-wordpress-nginx-1        nginx:1.19.0                    \"/docker-entrypoint.\u00e2\u20ac\u00a6\"   nginx        2 weeks ago         Up 13 days      0.0.0.0:8080->80/tcp, [::]:8080->80/tcp\ntrabalho-wordpress-wordpress1-1   wordpress:5.4.2-php7.2-apache   \"docker-entrypoint.s\u00e2\u20ac\u00a6\"   wordpress1   2 weeks ago         Up 13 days      80/tcp\ntrabalho-wordpress-wordpress2-1   wordpress:5.4.2-php7.2-apache   \"docker-entrypoint.s\u00e2\u20ac\u00a6\"   wordpress2   2 weeks ago         Up 23 minutes   80/tcp\ntrabalho-wordpress-wordpress3-1   wordpress:5.4.2-php7.2-apache   \"docker-entrypoint.s\u00e2\u20ac\u00a6\"   wordpress3   2 weeks ago         Up 12 minutes   80/tcp\n",
+  "docker_environment": "CPUs=16; MemTotal=7986298880; Docker=29.5.3; OS=Docker Desktop; Arch=x86_64"
+}

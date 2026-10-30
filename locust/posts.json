@@ -1,0 +1,24 @@
+{
+  "imagem-1mb": {
+    "id": 6,
+    "marker": "trabalho3-imagem-1mb",
+    "attachment_id": 5,
+    "image_url": "http://localhost:8080/wp-content/uploads/2026/10/trabalho3-imagem-1mb.png",
+    "bytes": 1046039,
+    "sha256": "af9a49caaf85a671b34a85e5b124d1ebc4d50753bfefc46414cb722cac15300c"
+  },
+  "texto-400kb": {
+    "id": 7,
+    "marker": "trabalho3-texto-400kb",
+    "text_bytes": 409600,
+    "content_bytes": 409635
+  },
+  "imagem-300kb": {
+    "id": 9,
+    "marker": "trabalho3-imagem-300kb",
+    "attachment_id": 8,
+    "image_url": "http://localhost:8080/wp-content/uploads/2026/10/trabalho3-imagem-300kb.png",
+    "bytes": 307963,
+    "sha256": "d19e75a550257932ca51ed1dd0c2e5484decb8e931b397e634153904f6b3b794"
+  }
+}

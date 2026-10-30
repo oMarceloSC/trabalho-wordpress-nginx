@@ -1,0 +1,29 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "utc": "20261030T184828Z",
+  "manifest": {
+    "imagem-1mb": {
+      "id": 6,
+      "marker": "trabalho3-imagem-1mb",
+      "attachment_id": 5,
+      "image_url": "http://localhost:8080/wp-content/uploads/2026/10/trabalho3-imagem-1mb.png",
+      "bytes": 1046039,
+      "sha256": "af9a49caaf85a671b34a85e5b124d1ebc4d50753bfefc46414cb722cac15300c"
+    },
+    "texto-400kb": {
+      "id": 7,
+      "marker": "trabalho3-texto-400kb",
+      "text_bytes": 409600,
+      "content_bytes": 409635
+    },
+    "imagem-300kb": {
+      "id": 9,
+      "marker": "trabalho3-imagem-300kb",
+      "attachment_id": 8,
+      "image_url": "http://localhost:8080/wp-content/uploads/2026/10/trabalho3-imagem-300kb.png",
+      "bytes": 307963,
+      "sha256": "d19e75a550257932ca51ed1dd0c2e5484decb8e931b397e634153904f6b3b794"
+    }
+  },
+  "original_compose_ps": "NAME                              IMAGE                           COMMAND                  SERVICE      CREATED          STATUS          PORTS\ntrabalho-wordpress-locust-1       locustio/locust:2.31.8          \"locust -f /mnt/locu\u2026\"   locust       39 minutes ago   Up 30 minutes   0.0.0.0:8089->8089/tcp, [::]:8089->8089/tcp\ntrabalho-wordpress-mysql-1        mysql:5.7                       \"docker-entrypoint.s\u2026\"   mysql        2 weeks ago      Up 13 days      3306/tcp, 33060/tcp\ntrabalho-wordpress-nginx-1        nginx:1.19.0                    \"/docker-entrypoint.\u2026\"   nginx        2 weeks ago      Up 13 days      0.0.0.0:8080->80/tcp, [::]:8080->80/tcp\ntrabalho-wordpress-wordpress1-1   wordpress:5.4.2-php7.2-apache   \"docker-entrypoint.s\u2026\"   wordpress1   2 weeks ago      Up 13 days      80/tcp\ntrabalho-wordpress-wordpress2-1   wordpress:5.4.2-php7.2-apache   \"docker-entrypoint.s\u2026\"   wordpress2   2 weeks ago      Up 13 days      80/tcp\ntrabalho-wordpress-wordpress3-1   wordpress:5.4.2-php7.2-apache   \"docker-entrypoint.s\u2026\"   wordpress3   2 weeks ago      Up 13 days      80/tcp\n"
+}

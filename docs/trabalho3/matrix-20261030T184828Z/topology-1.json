@@ -1,0 +1,7 @@
+{
+  "instances": 1,
+  "upstreams": [
+    "172.19.0.3:80"
+  ],
+  "compose_ps": "NAME                              IMAGE                           COMMAND                  SERVICE      CREATED          STATUS          PORTS\ntrabalho-wordpress-locust-1       locustio/locust:2.31.8          \"locust -f /mnt/locu\u2026\"   locust       40 minutes ago   Up 30 minutes   0.0.0.0:8089->8089/tcp, [::]:8089->8089/tcp\ntrabalho-wordpress-mysql-1        mysql:5.7                       \"docker-entrypoint.s\u2026\"   mysql        2 weeks ago      Up 13 days      3306/tcp, 33060/tcp\ntrabalho-wordpress-nginx-1        nginx:1.19.0                    \"/docker-entrypoint.\u2026\"   nginx        2 weeks ago      Up 13 days      0.0.0.0:8080->80/tcp, [::]:8080->80/tcp\ntrabalho-wordpress-wordpress1-1   wordpress:5.4.2-php7.2-apache   \"docker-entrypoint.s\u2026\"   wordpress1   2 weeks ago      Up 13 days      80/tcp\n"
+}

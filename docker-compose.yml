@@ -65,6 +65,18 @@ services:
       - wordpress_network
     restart: unless-stopped
 
+  locust:
+    image: locustio/locust:2.31.8
+    ports:
+      - "8089:8089"
+    volumes:
+      - ./locust:/mnt/locust:ro
+    command: -f /mnt/locust/locustfile.py --host=http://nginx
+    depends_on:
+      - nginx
+    networks:
+      - wordpress_network
+
 volumes:
   mysql_data:
 

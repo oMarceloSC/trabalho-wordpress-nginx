@@ -13,3 +13,5 @@ Desktop.ini
 
 .vscode/
 .idea/
+# Relatorios Locust volumosos; CSVs e resumos continuam versionaveis
+/docs/trabalho3/**/report.html
